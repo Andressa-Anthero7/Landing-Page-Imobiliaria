@@ -612,7 +612,7 @@ iframe{
 	body{
 		
 		background:#C3C3DF;
-		min-width:350px;
+		max-width:375px;
 		min-height:1400px;
 	}
 
@@ -627,7 +627,7 @@ iframe{
 	#header-logo{
 		text-align: center;
 		font-size:16px;
-		border:  1px solid red;
+		border:  2px solid red;
 
 	}
 
