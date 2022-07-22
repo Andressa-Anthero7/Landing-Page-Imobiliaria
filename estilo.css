@@ -1,0 +1,1211 @@
+
+
+
+/*Estrutura do site Noticias Cidade*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+
+
+@media (max-width: 320.99px) {
+	body{
+		
+		background:#C3C3DF;
+		min-width:280px;
+		min-height:1400px;
+	}
+
+	#navegacao{
+		max-height:40px;
+			min-width:375px;
+	}
+
+
+
+
+	#header-logo{
+		text-align: center;
+		font-size:16px;
+
+	}
+
+	#num-whats-app{
+		position: relative;
+		left: 0px;
+		font-size: 18px;
+	}
+
+	a:hover{
+		text-decoration: none;
+	}
+
+
+	.fa-whatsapp{
+		border-radius:100px;
+		font-size: 16px;
+	}
+
+
+
+
+	.img-fundo{
+		min-width:375px;
+	
+	}
+
+	.carousel-inner{
+		max-height:400px;
+	}
+
+
+
+
+	#banner-cta{
+		position: absolute;
+		top:150px;
+
+		background: #363636;
+		color: white;
+		min-width:375px;
+
+	}
+
+	h4{
+		font-size: 26px;
+		position: relative;
+		left: 10px;
+	}
+
+	#texto-cta{
+		font-size:20px;
+		position: relative;
+		left: 20px;
+		top: 10px;
+		max-width: 350px;
+
+	}
+
+
+
+	#header-1-form{
+		margin-top: 20px;
+		text-align: center;
+
+	}
+
+	#header-2-form{
+		position: relative;
+		top: -10px;
+		
+		text-align: center;
+
+	}
+
+
+
+	#benificios{
+		position: absolute;
+		top:770px;
+		left:10px;
+		min-width: 375px;
+		min-height:400px;
+	}
+
+	#header-lista-beneficios{
+		text-align: center;
+		margin-top: 16px;
+		font-size:22px;
+		max-width:350px;
+	}
+
+	#lista-benificios{
+		position: relative;
+		left: 0px;
+		min-width: 370px;
+		 list-style: none;
+		 font-size:26px;
+	}
+
+	li{
+		margin:10px;
+		text-align: center;
+		position: relative;
+		left:-15px;
+
+	}
+
+
+
+	ul li:before {
+  content: '✓';
+  margin-right:10px;
+
+
+}
+
+
+#localizacao{
+
+	position: absolute;
+		top:1320px;
+		left:0px;
+		min-width:370px;
+		min-height:600px;
+
+}
+
+iframe{
+	max-width:350px;
+	max-height:350px;
+	position: relative;
+	left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+	@-webkit-keyframes blinker {
+  from {opacity: 1.0;}
+  to {opacity: 0.0;}
+}
+
+
+.blink{
+	text-decoration: blink;
+	-webkit-animation-name: blinker;
+	-webkit-animation-duration:0.6s;
+	-webkit-animation-iteration-count:5;
+	-webkit-animation-timing-function:linear;
+	-webkit-animation-direction: alternate;
+}
+
+
+.blink-2{
+	text-decoration: blink;
+	-webkit-animation-name: blinker;
+	-webkit-animation-duration:0.6s;
+	-webkit-animation-iteration-count:3;
+	-webkit-animation-timing-function:linear;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-delay:5s;
+
+
+}
+
+
+
+
+
+	#formulario-leads{
+		position: absolute;
+		left:0px;
+		top:300px;
+				/* From https://css.glass */
+		background: rgba(17, 2, 2, 0.63);
+		border-radius: 16px;
+		box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+		backdrop-filter: blur(5px);
+		-webkit-backdrop-filter: blur(5px);
+		border: 1px solid rgba(17, 2, 2, 1);
+		border-radius:10px;
+		min-width: 375px;
+		min-height:450px;
+
+		
+	}
+
+
+	#btn-saiba-mais{
+		position: relative;
+		top: 30px;
+	}
+
+
+
+
+
+
+
+
+	label{
+		display: block;
+		margin-left:10px;
+		margin-bottom: -10px;
+		position: relative;
+		top:-10px;
+	}
+
+	input{
+		margin:10px 15px 15px 10px;
+		min-width: 330px;
+		position: relative;
+		top:-10px;
+	}
+
+	#hr-1{
+		max-width:80%;
+		margin-left: 20px;
+		position: relative;
+		top:-10px;
+	}
+
+
+	#footer{
+		position: absolute;
+		top:1200px;
+
+	}
+
+	#text-footer{
+		position: relative;
+		left: 400px;
+		top: 20px;
+	}
+
+
+	
+
+
+
+
+
+
+
+
+}
+
+/*******************************************************************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CELULAR TAMANHO M */
+
+@media (min-width:321px) and (max-width: 375.99px) {
+		
+	body{
+		
+		background:#C3C3DF;
+		min-width:280px;
+		min-height:1400px;
+	}
+
+	#navegacao{
+		max-height:40px;
+			max-width:375px;
+	}
+
+
+
+
+	#header-logo{
+		text-align: center;
+		font-size:16px;
+
+	}
+
+	#num-whats-app{
+		position: relative;
+		left: 0px;
+		font-size: 18px;
+	}
+
+	a:hover{
+		text-decoration: none;
+	}
+
+
+	.fa-whatsapp{
+		border-radius:100px;
+		font-size: 16px;
+	}
+
+
+
+
+	.img-fundo{
+		min-width:375px;
+	
+	}
+
+	.carousel-inner{
+		max-height:400px;
+	}
+
+
+
+
+	#banner-cta{
+		position: absolute;
+		top:150px;
+
+		background: #363636;
+		color: white;
+		min-width:375px;
+
+	}
+
+	h4{
+		font-size: 26px;
+		position: relative;
+		left: 10px;
+	}
+
+	#texto-cta{
+		font-size:20px;
+		position: relative;
+		left: 20px;
+		top: 10px;
+		max-width: 350px;
+
+	}
+
+
+
+	#header-1-form{
+		margin-top: 20px;
+		text-align: center;
+
+	}
+
+	#header-2-form{
+		position: relative;
+		top: -10px;
+		
+		text-align: center;
+
+	}
+
+
+
+	#benificios{
+		position: absolute;
+		top:770px;
+		left:10px;
+		min-width: 375px;
+		min-height:400px;
+	}
+
+	#header-lista-beneficios{
+		text-align: center;
+		margin-top: 16px;
+		font-size:24px;
+		min-width:370px;
+	}
+
+	#lista-benificios{
+		position: relative;
+		left: 0px;
+		min-width: 370px;
+		 list-style: none;
+		 font-size:26px;
+	}
+
+	li{
+		margin:20px 10px 20px 10px;
+		text-align: center;
+
+	}
+
+
+
+	ul li:before {
+  content: '✓';
+  margin-right:10px;
+
+
+}
+
+
+#localizacao{
+
+	position: absolute;
+		top:1320px;
+		left:0px;
+		min-width:370px;
+		min-height:600px;
+
+}
+
+iframe{
+	max-width:350px;
+	max-height:350px;
+	position: relative;
+	left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+	@-webkit-keyframes blinker {
+  from {opacity: 1.0;}
+  to {opacity: 0.0;}
+}
+
+
+.blink{
+	text-decoration: blink;
+	-webkit-animation-name: blinker;
+	-webkit-animation-duration:0.6s;
+	-webkit-animation-iteration-count:5;
+	-webkit-animation-timing-function:linear;
+	-webkit-animation-direction: alternate;
+}
+
+
+.blink-2{
+	text-decoration: blink;
+	-webkit-animation-name: blinker;
+	-webkit-animation-duration:0.6s;
+	-webkit-animation-iteration-count:3;
+	-webkit-animation-timing-function:linear;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-delay:5s;
+
+
+}
+
+
+
+
+
+	#formulario-leads{
+		position: absolute;
+		left:0px;
+		top:300px;
+				/* From https://css.glass */
+		background: rgba(17, 2, 2, 0.63);
+		border-radius: 16px;
+		box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+		backdrop-filter: blur(5px);
+		-webkit-backdrop-filter: blur(5px);
+		border: 1px solid rgba(17, 2, 2, 1);
+		border-radius:10px;
+		min-width: 375px;
+		min-height:450px;
+
+		
+	}
+
+
+	#btn-saiba-mais{
+		position: relative;
+		top: 30px;
+	}
+
+
+
+
+
+
+
+
+	label{
+		display: block;
+		margin-left:10px;
+		margin-bottom: -10px;
+		position: relative;
+		top:-10px;
+	}
+
+	input{
+		margin:10px 15px 15px 10px;
+		min-width: 350px;
+		position: relative;
+		top:-10px;
+	}
+
+	#hr-1{
+		max-width:80%;
+		margin-left: 20px;
+		position: relative;
+		top:-10px;
+	}
+
+
+	#footer{
+		position: absolute;
+		top:1200px;
+
+	}
+
+	#text-footer{
+		position: relative;
+		left: 400px;
+		top: 20px;
+	}
+
+
+	
+
+
+
+
+		
+
+}
+
+/********************************************************************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Celulares Tamanho G */
+
+@media (min-width:376px) and (max-width: 425.99px) {
+
+		
+	body{
+		
+		background:#C3C3DF;
+		min-width:280px;
+		min-height:1400px;
+	}
+
+	#navegacao{
+		max-height:40px;
+			max-width:375px;
+	}
+
+
+
+
+	#header-logo{
+		text-align: center;
+		font-size:16px;
+
+	}
+
+	#num-whats-app{
+		position: relative;
+		left: 0px;
+		font-size: 20px;
+	}
+
+	a:hover{
+		text-decoration: none;
+	}
+
+
+	.fa-whatsapp{
+		border-radius:100px;
+		font-size: 16px;
+	}
+
+
+
+
+	.img-fundo{
+		min-width:375px;
+	
+	}
+
+	.carousel-inner{
+		max-height:400px;
+	}
+
+
+
+
+	#banner-cta{
+		position: absolute;
+		top:150px;
+
+		background: #363636;
+		color: white;
+		min-width:375px;
+
+	}
+
+	h4{
+		font-size: 26px;
+		position: relative;
+		left: 10px;
+	}
+
+	#texto-cta{
+		font-size:20px;
+		position: relative;
+		left: 20px;
+		top: 10px;
+		max-width: 350px;
+
+	}
+
+
+
+	#header-1-form{
+		margin-top: 20px;
+		text-align: center;
+
+	}
+
+	#header-2-form{
+		position: relative;
+		top: -10px;
+		
+		text-align: center;
+
+	}
+
+
+
+	#benificios{
+		position: absolute;
+		top:770px;
+		left:10px;
+		min-width: 375px;
+		min-height:400px;
+	}
+
+	#header-lista-beneficios{
+		text-align: center;
+		margin-top: 16px;
+		font-size:24px;
+		min-width:370px;
+	}
+
+	#lista-benificios{
+		position: relative;
+		left: 0px;
+		min-width: 370px;
+		 list-style: none;
+		 font-size:26px;
+	}
+
+	li{
+		margin:20px 10px 20px 10px;
+		text-align: center;
+
+	}
+
+
+
+	ul li:before {
+  content: '✓';
+  margin-right:10px;
+
+
+}
+
+
+#localizacao{
+
+	position: absolute;
+		top:1320px;
+		left:0px;
+		min-width:370px;
+		min-height:600px;
+
+}
+
+iframe{
+	max-width:350px;
+	max-height:350px;
+	position: relative;
+	left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+	@-webkit-keyframes blinker {
+  from {opacity: 1.0;}
+  to {opacity: 0.0;}
+}
+
+
+.blink{
+	text-decoration: blink;
+	-webkit-animation-name: blinker;
+	-webkit-animation-duration:0.6s;
+	-webkit-animation-iteration-count:5;
+	-webkit-animation-timing-function:linear;
+	-webkit-animation-direction: alternate;
+}
+
+
+.blink-2{
+	text-decoration: blink;
+	-webkit-animation-name: blinker;
+	-webkit-animation-duration:0.6s;
+	-webkit-animation-iteration-count:3;
+	-webkit-animation-timing-function:linear;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-delay:5s;
+
+
+}
+
+
+
+
+
+	#formulario-leads{
+		position: absolute;
+		left:0px;
+		top:300px;
+				/* From https://css.glass */
+		background: rgba(17, 2, 2, 0.63);
+		border-radius: 16px;
+		box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+		backdrop-filter: blur(5px);
+		-webkit-backdrop-filter: blur(5px);
+		border: 1px solid rgba(17, 2, 2, 1);
+		border-radius:10px;
+		min-width: 375px;
+		min-height:450px;
+
+		
+	}
+
+
+	#btn-saiba-mais{
+		position: relative;
+		top: 30px;
+	}
+
+
+
+
+
+
+
+
+	label{
+		display: block;
+		margin-left:10px;
+		margin-bottom: -10px;
+		position: relative;
+		top:-10px;
+	}
+
+	input{
+		margin:10px 15px 15px 10px;
+		min-width: 350px;
+		position: relative;
+		top:-10px;
+	}
+
+	#hr-1{
+		max-width:80%;
+		margin-left: 20px;
+		position: relative;
+		top:-10px;
+	}
+
+
+	#footer{
+		position: absolute;
+		top:1200px;
+
+	}
+
+	#text-footer{
+		position: relative;
+		left: 400px;
+		top: 20px;
+	}
+
+
+	
+
+	
+
+		
+
+
+}
+
+/***********************************************************************************/
+
+
+
+
+
+/* Tablet */
+
+
+@media (min-width:426px) and (max-width: 768.99px) {
+
+
+		
+		body{
+			font-family: "Trebuchet MS", Helvetica, sans-serif;
+			background:#fffafa;
+			max-width:768px;
+
+			
+		}
+
+		
+
+
+}
+
+
+/***************************************************************************************************/
+
+
+
+
+/*** LAPTOP ***/
+
+
+@media (min-width:769px) and (max-width: 1024.99px) {
+
+	body{
+		min-width:1024px;
+	}
+
+	
+
+
+}
+
+
+
+
+
+/***********************************************************************************************************************************************/
+
+
+
+/*** LAPTOP G ***/
+
+
+@media (min-width:1025px) and (max-width: 1440.99px) {
+
+	body{
+		border:  3px solid red;
+		background:#C3C3DF;
+		max-width:1400px;
+		max-height:1250px;
+	}
+
+	#navegacao{
+		min-height:50px;
+			min-width:1500px;
+	}
+
+	#header-logo{
+		text-align: center;
+
+	}
+
+	#num-whats-app{
+		position: relative;
+		left: 800px;
+		font-size: 40px;
+	}
+
+	a:hover{
+		text-decoration: none;
+	}
+
+
+	.fa-whatsapp{
+		border-radius:100px;
+		font-size: 40px;
+	}
+
+
+
+
+	.img-fundo{
+		min-width:1300px;
+		max-height:480px;
+	}
+
+	#banner-cta{
+		position: absolute;
+		top:500px;
+
+		background: #363636;
+		color: white;
+		min-width:1350px;
+
+	}
+
+
+
+	#header-1-form{
+		margin-top: 20px;
+		text-align: center;
+
+	}
+
+	#header-2-form{
+		position: relative;
+		top: -10px;
+		
+		text-align: center;
+
+	}
+
+
+
+	#benificios{
+		position: absolute;
+		top:600px;
+		left:50px;
+		min-width:400px;
+		min-height:600px;
+	}
+
+	#header-lista-beneficios{
+		text-align: center;
+		margin-top: 20px;
+	}
+
+	#lista-benificios{
+		position: relative;
+		left: 20px;
+		max-width: 350px;
+		 list-style: none;
+	}
+
+	li{
+		margin:10px 10px 20px 10px;
+	}
+
+
+
+	ul li:before {
+  content: '✓';
+  margin-right:10px;
+
+
+}
+
+
+#localizacao{
+
+	position: absolute;
+		top:650px;
+		left:480px;
+		min-width:750px;
+		min-height:600px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+	@-webkit-keyframes blinker {
+  from {opacity: 1.0;}
+  to {opacity: 0.0;}
+}
+
+
+.blink{
+	text-decoration: blink;
+	-webkit-animation-name: blinker;
+	-webkit-animation-duration:0.6s;
+	-webkit-animation-iteration-count:5;
+	-webkit-animation-timing-function:linear;
+	-webkit-animation-direction: alternate;
+}
+
+
+.blink-2{
+	text-decoration: blink;
+	-webkit-animation-name: blinker;
+	-webkit-animation-duration:0.6s;
+	-webkit-animation-iteration-count:3;
+	-webkit-animation-timing-function:linear;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-delay:5s;
+
+
+}
+
+
+
+
+
+	#formulario-leads{
+		position: absolute;
+		left: 650px;
+		top:170px;
+				/* From https://css.glass */
+		background: rgba(17, 2, 2, 0.63);
+		border-radius: 16px;
+		box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+		backdrop-filter: blur(5px);
+		-webkit-backdrop-filter: blur(5px);
+		border: 1px solid rgba(17, 2, 2, 1);
+		border-radius:10px;
+		min-width: 300px;
+		min-height:450px;
+
+		
+	}
+
+	label{
+		display: block;
+		margin-left:10px;
+		margin-bottom: -10px;
+		position: relative;
+		top:-10px;
+	}
+
+	input{
+		margin:10px 15px 15px 10px;
+		min-width: 270px;
+		position: relative;
+		top:-10px;
+	}
+
+	#hr-1{
+		max-width:80%;
+		margin-left: 20px;
+		position: relative;
+		top:-10px;
+	}
+
+
+	#footer{
+		position: absolute;
+		top:1200px;
+
+	}
+
+	#text-footer{
+		position: relative;
+		left: 400px;
+		top: 20px;
+	}
+
+
+	
+
+
+
+
+	
+
+
+	
+
+
+	
+
+
+
+}
+
+
+
+/*************************************************************************************************************/
+
+
+/***************** TELAS MAIORES QUE 1440PX **********************************************************************/
+
+
+@media (min-width: 1441px) and (max-width: 2559.98px) {
+
+	body{
+		min-width:1440px;
+		background:#C3C3DF;
+	}
+
+	
+
+}
+
+
+
+
+
+
+
+/*************************************************************************************************************/
+
+
+/***************** TELAS MAIORES QUE 2559PX **********************************************************************/
+
+
+@media (min-width: 2559.99px) {
+
+	body{
+		min-width:1440px;
+		background:#C3C3DF;
+	}
+
+
+
+}
+
+
+
+
+
